@@ -1,0 +1,37 @@
+{
+  "name": "@rog0x/mcp-image-tools",
+  "version": "1.0.0",
+  "description": "MCP server providing image analysis tools for AI agents - metadata, favicons, OG images, placeholders, responsive markup",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-image-tools": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "ai",
+    "image-tools",
+    "metadata",
+    "favicon",
+    "og-image",
+    "responsive-images"
+  ],
+  "author": "rog0x",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rog0x/mcp-image-tools"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
