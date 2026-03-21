@@ -1,3 +1,5 @@
+[![MCP Server](https://glama.ai/mcp/servers/rog0x/mcp-image-tools/badges/score.svg)](https://glama.ai/mcp/servers/rog0x/mcp-image-tools)
+
 # mcp-image-tools
 
 MCP server providing image analysis tools for AI agents. Metadata inspection only -- no image processing or manipulation.
